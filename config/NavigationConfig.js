@@ -6,13 +6,14 @@ import {
 import { TouchableRipple } from 'react-native-paper';
 import React,{Component} from 'react';
 import {View,Text} from 'react-native';
-import {Icon} from 'native-base';
+import { Icon ,StyleProvider} from 'native-base';
+
 
 class Message extends Component{
     render(){
         return(
             <View style={{flex:1,justifyContent:'center',alignItems:'center',backgroundColor:'#fff'}}>
-              <Text style={{fontFamily:'NotoSansKR-Bold'}}> Message </Text>
+              <Text style={{fontFamily:'NotoSansKR-Regular'}}> Message </Text>
             </View>
         )
     }
