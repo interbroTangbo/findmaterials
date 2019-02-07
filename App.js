@@ -5,7 +5,7 @@ import {createStore,combineReducers,applyMiddleware} from 'redux'
 import {Provider,connect} from 'react-redux'
 import axios from 'axios';
 import axiosMiddleware from 'redux-axios-middleware';
-import AppContainer from './NavihationConfig';
+import AppContainer from './config/NavigationConfig';
 
 const apiClient = axios.create({
   baseURL : 'http://localhost:3000/',
